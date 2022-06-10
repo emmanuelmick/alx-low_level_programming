@@ -5,7 +5,7 @@
 /**
  * main - Assigns a random number to the variable n each time it is executed.
  * prints out the last digit of the number stored in the variable n.
- * RETURN :always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("last digit of %d is %d ", n, n %10);
+printf("last digit of %d is %d ", n, n % 10);
 if (n > 5)
 {
 	printf("greater than 5");
