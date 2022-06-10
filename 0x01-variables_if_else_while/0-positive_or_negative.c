@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - a random number to the variable n each time it is executed.
- *  The result is printed if the condition is met
- * Return: always 0
+ * main -> Assigns a random number to the variable n each time it is executed.
+ * The result is then printed if the condition is met
+ * Return : always 0
  */
 int main(void)
 {
