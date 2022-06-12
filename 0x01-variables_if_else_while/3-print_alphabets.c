@@ -12,9 +12,9 @@ for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
 }
 char c;
-for (c = 'A'; j <= 'Z'; j++)
+for (c = 'A'; c <= 'Z';c++)
 {
-	putchar(j);
+	putchar(c);
 }
 putchar(10);
 return (0);
