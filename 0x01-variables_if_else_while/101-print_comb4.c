@@ -31,5 +31,5 @@ for (n = 48; n <= 57; n++)
 }
 putchar(10);
 return (0);
-
+}
 
