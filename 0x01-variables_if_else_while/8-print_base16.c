@@ -11,10 +11,9 @@ for (i = 48; i <= 57; i++)
 {
 	putchar(i);
 }
-char c;
-for (c = 'a'; c <= 'f'; c++)
+for (i = 97; i <= 102; i++)
 {
-	putchar(c);
+	putchar(i);
 }
 putchar(10);
 return (0);
