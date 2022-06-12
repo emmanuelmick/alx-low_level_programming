@@ -8,19 +8,19 @@ int main(void)
 {
 int n;
 int m,
-int o;
+int j;
 for (n = 48; n <= 57; n++)
 {
 	for (m = 49; m <= 57; m++)
 	{
-		for (o = 50; o <= 57; o++)
+		for (j = 50; j <= 57; j++)
 		{
-			if (m > n && o > n)
+			if (m > n && j > n)
 			{
 				putchar(n);
 				putchar(m);
-				putchar(o);
-				if (n != 55 || m != 56 || o != 57)
+				putchar(j);
+				if (n != 55 || m != 56 || j != 57)
 				{
 					putchar(44);
 					putchar(32);
