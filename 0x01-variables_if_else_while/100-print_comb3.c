@@ -11,13 +11,17 @@ for (n = 48; n <= 57; n++)
 {
 	for (j = 49; j <= 57; j++)
 	{
-		putchar(n);
-		putchar(j);
-		if (n != 56 || j != 57)
+		if (n > j)
 		{
-			putchar(44);
-			putchar(32);
-		}
+			putchar(n);
+			putchar(j);
+		
+			if (n != 56 || j != 57)
+			{
+				putchar(44);
+				putchar(32);
+			}
+		}	
 	}
 }
 putchar(10);
