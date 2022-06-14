@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - A function which reset the pointer value it takes in.
  * Return: Always 0
