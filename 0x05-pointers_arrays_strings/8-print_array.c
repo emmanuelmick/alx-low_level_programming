@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - A function that prints a given array of numbers
  * in the order of which they are stored
