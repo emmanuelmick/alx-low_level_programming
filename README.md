@@ -1,1 +1,1 @@
-Coding in C
+my new readme for pointers
