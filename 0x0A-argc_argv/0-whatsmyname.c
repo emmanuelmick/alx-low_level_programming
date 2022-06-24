@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _argv - A function that prints the name of a program and a new line
+ * _printname - A function that prints the name of a program and a new line
  * @argc - Argument count
  * @argv - array of strings
  * Return: The name of the program
