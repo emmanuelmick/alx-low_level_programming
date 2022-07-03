@@ -9,7 +9,7 @@
  * @c: Character with which the array is initialized.
  * Return: A pointer
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	int i;
 	char *s;
