@@ -1,6 +1,6 @@
 #ifndef DOG
 #define DOG
-#define struct dog
+struct dog
 {
 	char *name;
 	float age;
