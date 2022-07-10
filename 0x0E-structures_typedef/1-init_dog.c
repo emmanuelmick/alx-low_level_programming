@@ -1,29 +1,19 @@
-#ifndef DOG
-#define DOG
+#include "dog.h"
+#include <stdlib.h>
 /**
- * struct dog -  A template for creating dog objects
- * @name: First member
- * @age: second member
- * @owner: third member
- */
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
-/**
- * init_dog - A function that initializes a variable of type struct
- * @struct dog: A pointer that points to the struct variable
- * @name: second parameter
- * @age: third parameter
- * @owner: fourth parameter
+ * init_dog - A function that initializes a variable of type struct dog
+ * @d: The dog to be initialized
+ * @name: The name of the dog
+ * @age: The age of the dog
+ * @owner: The owner of the dog
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	if (d != NULL)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
-#endif
 
