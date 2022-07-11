@@ -12,6 +12,7 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int index;
+	int a = 0;
 
 	if (array == NULL)
 		return (-1);
